@@ -12,12 +12,9 @@
 				"-std=c++17",
 				"${fileDirname}\\*.cpp",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe", 
-				"&&",
-        		"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"&&",
-				"del",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}\\${fileBasenameNoExtension}.exe" 
+				//"&&",
+        		//"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
 				"cwd": "C:/msys64/mingw64/bin"
